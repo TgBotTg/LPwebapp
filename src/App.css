@@ -1,0 +1,42 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f0f8ff; /* Светло-голубой фон */
+}
+
+.Container {
+  background-color: #e6f7ff; /* Более темный голубой фон для контейнера */
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Card {
+  background-color: #ffffff; /* Белый фон для карточек */
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ButtonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Button {
+  background-color: #61dafb; /* Голубая кнопка */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Button:hover {
+  background-color: #4fa8d8; /* Темно-голубой фон при наведении */
+}
